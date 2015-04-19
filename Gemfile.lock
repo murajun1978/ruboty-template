@@ -31,6 +31,8 @@ GEM
       slop
     ruboty-alias (0.0.3)
       ruboty
+    ruboty-chatwork (0.0.1)
+      ruboty
     ruboty-cron (0.0.9)
       activesupport
       chrono
@@ -43,15 +45,10 @@ GEM
       redis
       redis-namespace
       ruboty
-    ruboty-slack (0.1.7)
-      ruboty (>= 1.0.4)
-      xrc (>= 0.0.6)
     slop (3.6.0)
     thread_safe (0.3.4)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    xrc (0.1.4)
-      activesupport
 
 PLATFORMS
   ruby
@@ -59,7 +56,7 @@ PLATFORMS
 DEPENDENCIES
   rake
   ruboty-alias
+  ruboty-chatwork
   ruboty-cron
   ruboty-google_image
   ruboty-redis
-  ruboty-slack
