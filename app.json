@@ -2,25 +2,17 @@
   "addons": [
     "redistogo"
   ],
-  "description": "A template to create and deploy your ruboty on slack.",
+  "description": "A template to create and deploy your ruboty on chatwork.",
   "env": {
-    "SLACK_PASSWORD": {
-      "description": "The password of your ruboty's slack account."
+    "CHATWORK_API_TOKEN": {
+      "description": "ChatWork API Token"
     },
-    "SLACK_ROOM": {
-      "description": "Comma-separated room names your ruboty first joins in.",
-      "value": "general"
+    "CHATWORK_ROOM": {
+      "description": "ChatWork Room ID"
     },
-    "SLACK_TEAM": {
-      "description": "The name of your slack team."
-    },
-    "SLACK_USERNAME": {
-      "description": "The username of your ruboty's slack account.",
-      "value": "ruboty"
-    },
-    "TZ": {
-      "description": "Timezone.",
-      "value": "Asia/Tokyo"
+    "CHATWORK_API_RATE": {
+      "description": "ChatWork API Rate(Request per Hour)",
+      "value": "600"
     }
   },
   "keywords": ["chatops"],
